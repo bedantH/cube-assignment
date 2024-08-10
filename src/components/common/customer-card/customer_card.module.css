@@ -1,0 +1,40 @@
+.customer__card {
+  display: flex;
+  padding: 25px 20px;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+.customer__card:hover {
+  background-color: #e3e3e3;
+  transition: all 0.3s;
+}
+
+.customer__card.active {
+  background-color: #e3e3e3;
+}
+
+.customer__information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.customer__information p {
+  margin: 0px;
+}
+
+.customer__information p.name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.customer__information p.title {
+  font-weight: 400;
+  color: #8e8e8e;
+  margin-top: 5px;
+}

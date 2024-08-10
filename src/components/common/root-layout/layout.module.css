@@ -1,0 +1,12 @@
+.layout_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;  
+  border-bottom: 2px solid #ededed;
+}
+
+.header__title {
+  font-size: 22px;
+  font-weight: 500;
+}
